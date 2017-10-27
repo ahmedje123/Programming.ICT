@@ -1,0 +1,6 @@
+import xmltodict
+file= open("xmlbestand")
+bestand = file.read()
+test = xmltodict.parse(bestand)
+for x in range(len(test['artikelen']['artikel'])):
+    print(test['artikelen']['artikel'][x]['naam'])

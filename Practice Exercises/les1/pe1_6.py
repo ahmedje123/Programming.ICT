@@ -6,3 +6,4 @@ min = min(list1)
 difference = max - min
 
 print(difference)
+print(max)
